@@ -48,10 +48,11 @@ npm start
 ```
 
 ## Backend API Endpoints
-### 1. Initalize Database
+### 1. Initialize Database
 
 - **Url:** http://localhost:8000/
 - **Method:** POST
+![Screenshot (269)](https://github.com/rachit3014/BACKEND-ASSIGNMENT/assets/84663169/7386c716-5fdf-443e-bf68-13a612eb89a8)
 
 ### 2. List Transactions
 
@@ -61,6 +62,8 @@ npm start
   - `month` (string): Selected month (e.g., '03' for March)
   - `keyword` (string): Search query for filtering transactions
   - `page` (number): Current page for pagination
+    
+![Screenshot (266)](https://github.com/rachit3014/BACKEND-ASSIGNMENT/assets/84663169/916dd753-e827-47c8-9170-66b191a2019a)
 
 ### 3. Transaction Statistics
 
@@ -68,6 +71,7 @@ npm start
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month
+![Screenshot (265)](https://github.com/rachit3014/BACKEND-ASSIGNMENT/assets/84663169/991793d0-c823-4605-a02e-2373e032f492)
 
 ### 4. Bar Chart Data
 
@@ -75,6 +79,7 @@ npm start
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month
+![Screenshot (267)](https://github.com/rachit3014/BACKEND-ASSIGNMENT/assets/84663169/350d2b72-5ec1-45ea-a715-812f14a2c0fe)
 
 ### 5. Pie Chart Data
 
@@ -82,5 +87,6 @@ npm start
 - **Method:** GET
 - **Parameters:**
   - `month` (string): Selected month
+![Screenshot (268)](https://github.com/rachit3014/BACKEND-ASSIGNMENT/assets/84663169/f98f04f3-98a5-4fe4-8b60-1fd739c1c4cf)
 
 
